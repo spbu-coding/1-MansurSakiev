@@ -109,7 +109,7 @@ void console(int array[])
 
 int main()
 {
-    int array[] = { 5, 10, 20, 100, 500, 1000 };
+    int array[] = { 6, 10, 20, 100, 500, 1000 };
     entering_numbers();
     console(array);
     for (int i = 0; i < 6; i++)
