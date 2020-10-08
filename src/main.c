@@ -96,10 +96,10 @@ void print_to_console(int array[])
         sprintf(intermediate_line, "%d", array[i]);
         strcat(answer[i], intermediate_line);
         strcat(answer[i], " ");
-        sprintf(intermediate_line, "%2.5f", rectangle);
+        sprintf(intermediate_line, "%2.5f", rectangle_method);
         strcat(answer[i], intermediate_line);
         strcat(answer[i], " ");
-        sprintf(intermediate_line, "%2.5f", simpson);
+        sprintf(intermediate_line, "%2.5f", simpson_method);
         strcat(answer[i], intermediate_line);
     }
 }
